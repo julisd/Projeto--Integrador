@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardapiobebidas"
+    tools:context=".BebidasActivity">
+
+    <ImageButton
+        android:id="@+id/imgbtnCarrinhoBebidas"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/carrinho" />
+
+    <Button
+        android:id="@+id/btnAgua"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="220dp"
+        android:background="@null"
+        android:fontFamily="@font/agency_fb"
+        android:text="Água"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSucoLaranja"
+        android:layout_width="141dp"
+        android:layout_height="34dp"
+        android:layout_above="@+id/btnSiri"
+        android:layout_alignStart="@+id/btnAgua"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="252dp"
+        android:background="@null"
+        android:fontFamily="@font/agency_fb"
+        android:text="Suco de Laranja"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSucoMorango"
+        android:layout_width="176dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/btnAgua"
+        android:layout_alignTop="@+id/txt3"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="288dp"
+        android:background="@null"
+        android:fontFamily="@font/agency_fb"
+        android:text="Suco de Morango"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRefrigerante"
+        android:layout_width="207dp"
+        android:layout_height="34dp"
+        android:layout_above="@+id/btnAgua"
+        android:layout_alignStart="@+id/btnAgua"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="320dp"
+        android:background="@null"
+        android:fontFamily="@font/agency_fb"
+        android:text="Refrigerante"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVinho"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnAgua"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="356dp"
+        android:background="@null"
+        android:fontFamily="@font/agency_fb"
+        android:text="Casillero Del Diablo"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnAgua"
+        android:layout_alignEnd="@+id/txt3"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/agency_fb"
+        android:text="R$ 3,00"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSucoLaranja"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/agency_fb"
+        android:text="R$ 6,00"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSucoMorango"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="296dp"
+        android:fontFamily="@font/agency_fb"
+        android:text="R$ 6,00"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRefrigerante"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/agency_fb"
+        android:text="R$ 6,00"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnVinho"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="368dp"
+        android:fontFamily="@font/agency_fb"
+        android:text="R$ 45,00"
+        android:textColor="@color/TextoCardapio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

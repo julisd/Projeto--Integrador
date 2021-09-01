@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aluno.pi2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tela2Activity" />
+        <activity android:name=".BebidasActivity" />
+        <activity android:name=".PratosActivity" />
+        <activity android:name=".SalmaoActivity" />
+        <activity android:name=".ChuchuActivity" />
+        <activity android:name=".SiriActivity" />
+        <activity android:name=".FrutosActivity" />
+        <activity android:name=".LulaActivity" />
+        <activity android:name=".AguaActivity" />
+        <activity android:name=".AguaCompraActivity" />
+        <activity android:name=".SucoLaranjaActivity" />
+        <activity android:name=".SucoMorangoActivity" />
+        <activity android:name=".RefrigeranteActivity" />
+        <activity android:name=".VinhoActivity" />
+        <activity android:name=".SorveteActivity" />
+        <activity android:name=".SalmaoCompraActivity" />
+        <activity android:name=".RefriCompraActivity" />
+        <activity android:name=".ChuchuCompraActivity" />
+        <activity android:name=".LulaCompraActivity" />
+        <activity android:name=".MistoCompraActivity" />
+        <activity android:name=".SiriComprarActivity" />
+        <activity android:name=".SorveteComprarActivity" />
+        <activity android:name=".LaranjaComprarActivity" />
+        <activity android:name=".MorangoComprarActivity" />
+        <activity android:name=".VinhoCompraActivity" />
+        <activity
+            android:name=".ExemploScrollViewActivity"
+            android:label="@string/title_activity_exemplo_scroll_view"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".YoutubeGeral" />
+        <activity android:name=".EncerrarActivity"></activity>
+    </application>
+
+</manifest>
